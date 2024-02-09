@@ -96,7 +96,6 @@ public class calculator implements ActionListener {
         frame.setVisible(true);
     }
     public static void main(String[] args) {
-
         //calculator calc = new calculator();
     }
 
