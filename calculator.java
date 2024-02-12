@@ -68,7 +68,6 @@ public class calculator implements ActionListener {
         panel = new JPanel();
         panel.setBounds(50,100,300,300);
         panel.setLayout(new GridLayout(4,4,10,10));
-        //panel.setBackground(Color.GRAY);
 
         panel.add(numberButtons[1]);
         panel.add(numberButtons[2]);
@@ -87,7 +86,6 @@ public class calculator implements ActionListener {
         panel.add(equButton);
         panel.add(divButton);
 
-
         frame.add(panel);
         frame.add(negbutton);
         frame.add(delButton);
@@ -96,7 +94,7 @@ public class calculator implements ActionListener {
         frame.setVisible(true);
     }
     public static void main(String[] args) {
-        //calculator calc = new calculator();
+        calculator calc = new calculator();
     }
 
     @Override
